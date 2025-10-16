@@ -96,8 +96,8 @@ samp_size_unit: mL
 |NOAA|National Oceanic and Atmospheric Administration
 |OME	|Ocean Molecular Ecology|
 |PMEL	|Pacific Marine Environmental Laboratory|
+|PES|Polyethersulfone|
 |PPE| Personal protective equipment |
-|PVDF|Polyvinylidene Fluoride|
 |qPCR|Quantitative Polymerase Chain Reaction|
 |RO| Reverse Osmosis|
 |ROV| Remotely Operated Vehicle|
@@ -121,7 +121,7 @@ Water collection and filtration protocol using sterivex filters and gravity bags
 
 ### Method Description and Rationale
 
-This protocol describes the collection and filtration of water samples through a 0.22 µm PVDF sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding and qPCR analysis. The protocol is intended for water collected with a Niskin bottle mounted on a ship-deployed CTD rosette sampler or ROV, but it can also be employed for samples collected by hand.
+This protocol describes the collection and filtration of water samples through a 0.22 µm PES sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding and qPCR analysis. The protocol is intended for water collected with a Niskin bottle mounted on a ship-deployed CTD rosette sampler or ROV, but it can also be employed for samples collected by hand.
 
 ### Spatial Coverage and Environment(s) of Relevance
 
@@ -172,7 +172,7 @@ For a singular cast with three unique samples taken (one sample per Niskin):
 | **Consumable equipment**  |     |         |          |     |
 | Gravity bags | Kangaroo 1000 mL feeding pump bags | Generic   | 3    | Must be sterile   |
 | 50 mL tube   | Falcon 50 mL high clarity conical centrifuge tube  | Corning falcon| 1| Can be substituted with generic. Must be sterile. |
-| Sterivex | Sterivex-GP pressure filter unit| Millipore Sigma  | 3 | Cannot be substituted for this protocol.   |
+| Sterivex | Sterivex-GP pressure filter unit, PES membrane| Millipore Sigma  | 3 | Cannot be substituted for this protocol.   |
 | Sterivex/syringe caps     | Sterile luer caps  | McKesson| 6| Can be substituted with generic, must be sterile and individually packaged.  |
 | 5 mL luer lock syringes| Luer lock disposable syringe | BD | 24  | Can be subsituted with generic. Must be sterile and luer lock.  |
 | Label tape  | VWR general-purpose laboratory labeling tape   | VWR  | 1 | Can be substituted with generic. |
