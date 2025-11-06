@@ -11,11 +11,11 @@ environmental_medium: sea water [ENVO:00002149], fresh water [ENVO:00002011]
 target: deoxyribonucleic acid (DNA) [NCIT:C449], environmental DNA [NCIT:C169106]
 creator: Shannon Brown, Han Weinrich, Zachary Gold
 materials_required: filtration [OBI:0302885]
-skills_required: sterile technique, pipetting skills, standard molecular technique, research vessel experience
+skills_required: sterile technique, pipetting skills, standard molecular technique
 time_required: 120
 personnel_required: 1
 language: en
-issued: 2025-10-06
+issued: 2025-11-06
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -29,7 +29,7 @@ env_local_scale: oceanic epipelagic zone biome [ENVO:01000035], marine benthic b
 env_medium: sea water [ENVO:00002149], fresh water [ENVO:00002011]
 habitat_natural_artificial_0_1: 0
 samp_collect_method: CTD Niskin rosette, ROV, hand deploy
-samp_collect_device: Niskin bottle, IV bag
+samp_collect_device: Niskin bottle, gravity bag
 samp_size: 1000
 samp_size_unit: mL
 ---
@@ -70,9 +70,9 @@ samp_size_unit: mL
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump | https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_Niskin/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump.md |  1.1.1  | 2025-10-06 | Internal |
-| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md | 1.0.0  | Pending  | Internal |
-| NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge.md | 1.1.4 | 2025-10-06 | Internal|
+| NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump | https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_Niskin/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump.md |  1.1.1  | 2025-11-06 | Internal |
+| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md | 1.1.0  | 2025-11-06  | Internal |
+| NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge.md | 1.1.4 | 2025-11-06 | Internal|
 
 ### Protocol Revision Record
 
@@ -83,6 +83,7 @@ samp_size_unit: mL
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2025-10-06 | Initial release |
+| 1.1.0 | 2025-11-06 | Minor content revisions |
 
 ### Acronyms and Abbreviations
 
@@ -98,6 +99,7 @@ samp_size_unit: mL
 |PES|Polyethersulfone|
 |PMEL	|Pacific Marine Environmental Laboratory|
 |PPE| Personal protective equipment |
+|PVC| Polyvinyl chloride |
 |qPCR|Quantitative Polymerase Chain Reaction|
 |RO| Reverse Osmosis|
 |ROV| Remotely Operated Vehicle|
@@ -133,7 +135,7 @@ One person with pipetting experience. Recommend research vessel experience, but 
 
 ### Safety
 
-This protocol does not involve any hazardous chemicals, although standard precautions, including wearing PPE, should be taken to avoid skin and eye exposure to bleach and ethanol.
+This protocol uses bleach and ethanol, both of which are classified as hazardous chemicals. Appropriate PPE must be worn, and standard safety procedures should be followed to avoid skin and eye exposure.
 
 ### Training Requirements
 
@@ -141,11 +143,11 @@ Molecular biology training (including, at a minimum, sterile technique and pipet
 
 ### Time Required to Execute the Procedure
 
-The time needed varies widely based on the number and type of samples collected. For a majority of our sampling, Niskin bottles on a CTD rosette and/or ROV are triggered to collect at three depths (e.g., surface, 30m, and 10m off bottom). Then, pending the study design and Niskin size, a singular sample or triplicate samples are collected from each Niskin. The depth of collection and number of samples affect the time required - for instance, a cast to 30 m may take 10 minutes, while a cast to 600 m may take over an hour. Collecting samples from the Niskins takes between 10-30 minutes, depending on access and whether the water is being used for other science. We've also collected samples using a bucket or by directly submerging bottles and/or gravity bags in sample water in situ, which takes significantly less time for collection.
+The time needed varies widely based on the number and type of samples collected. For a majority of our sampling, Niskin bottles on a CTD rosette and/or ROV are triggered to collect at three depths (e.g., surface, 30m, and 10m off bottom). Then, depending on the study design and Niskin size, a singular sample or triplicate samples are collected from each Niskin. The depth of collection and number of samples affect the time required; for instance, a cast to 30 m may take 10 minutes, while a cast to 600 m may take over an hour. Collecting samples from the Niskins takes between 10-30 minutes, depending on access and whether the water is being used for other science. We've also collected samples using a bucket or by directly submerging bottles and/or gravity bags in sample water in situ, which takes significantly less time for collection.
 
-The gravity bag filtration set-up for three singular samples takes on average 10 minutes. Pending the turbidity of the water, the filtering of a single sample takes 30-80 minutes, and then preservation takes 5 minutes. The time requirement is different from standard peristaltic or vacuum manifold filtering because multiple samples can be filtered simultaneously, and you can walk away from gravity bags while filtering.
+The gravity bag filtration set-up for three singular samples takes on average 10 minutes. Pending the turbidity of the water, the filtering of a single sample takes 30-80 minutes, and then preservation takes 5 minutes. One benefit of the gravity filtration method is the simultaneous filtering of samples and thus better scaling, whereby more samples will increase the gravity bag filtration setup and preservation times linearly, while the actual filtering step will remain constant. The user can also walk away and complete other tasks while the gravity bags are filtering.
 
-The total collection and filtering time for a singular cast with three Niskins triggered and one sample taken from each Niskin is 120 minutes (2 hours) on average. More casts, more samples = more time.
+The total collection and filtering time for a singular cast with three Niskins triggered and one sample taken from each Niskin is 120 minutes (2 hours) on average.
 
 ## EQUIPMENT
 
@@ -161,7 +163,7 @@ For a singular cast with three unique samples taken (one sample per Niskin):
 | ----------------| ----------------------- | ------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | **Durable equipment**   |  |           |          |                                                                                                                                       |
 | Pipettor: 100-1000 μL | Pipetman P1000  | Gilson | 1  | Can be substituted with any accurate pipettor.|
-| Tubing  | 1/4" DEHP-Free polyvinyl chloride (PVC) Tubing   | Generic | 3  | Must fit the adaptor and output tubing on IV bag   |
+| Tubing  | 1/4" DEHP-Free polyvinyl chloride (PVC) Tubing   | Generic | 3  | Must fit the adaptor and output tubing on gravity bag   |
 | Hose barb adaptors   | Male Luer Lock 1/4" Hose Barb Adapter | Generic           | 3        |               |
 | Nalgene bottles| 1 L Nalgene wide-mouth lab quality amber HDPE bottles     | Thermo Scientific | 3        | Can be substituted with generic - must be opaque, well-sealing, and sterilizable. |
 | Wash bottles  | Safety wash bottles 500 mL for EtOH, bleach, and RO water | VWR | 3   | Can be substituted with generic, but recommend purchasing different colored bottles for each reagent. Must be sterilized before use.  |
@@ -170,7 +172,7 @@ For a singular cast with three unique samples taken (one sample per Niskin):
 | Binder clips  | Large and medium binder clips | Generic    | 6    | Useful to secure sterivex to a bucket    |
 |Screwdriver| Flathead tool for turning the locking mechanism on the gravity bag line| Generic| 1| Can be substituted with a coin or any flat, cleanable tool that fits into the locking mechanism slot| 
 | **Consumable equipment**  |     |         |          |     |
-| Gravity bags | Kangaroo 1000 mL feeding pump bags | Generic   | 3    | Must be sterile   |
+| Gravity bags | Kangaroo 1000 mL feeding pump bags | Generic   | 3    | Recommend sterile, not required|
 | 50 mL tube   | Falcon 50 mL high clarity conical centrifuge tube  | Corning falcon| 1| Can be substituted with generic. Must be sterile. |
 | Sterivex | Sterivex-GP pressure filter unit, PES membrane| Millipore Sigma  | 3 | Cannot be substituted for this protocol.   |
 | Sterivex/syringe caps     | Sterile luer caps  | McKesson| 6| Can be substituted with generic, must be sterile and individually packaged.  |
@@ -222,7 +224,7 @@ Bottle Sterilization Method (RO Not Available):
 3. Once the CTD is on deck, take bleached 1 L Nalgene bottles and dispense ~250 ml of the sample from the Niskin into the bottle; close the lid and shake vigorously. Dump. This will rid the container of residual bleach. Repeat process 2x (= three rinses in total). Water must come from the same Niskin that will be the source of the actual sample; otherwise, there will be cross-contamination.
 
 **Connector Preparation and Sterilization:**
-To facilitate the connection between the IV bag and sterivex, you need to cut the PVC tubing into 4" pieces and then add the hose barb adaptor to one end. These connectors can be sterilized in advance and stored in whirl-paks. They can also be reused, as long as they are sterilized between each sample. We recommend bringing sufficient connectors to avoid a sampling backlog.
+To facilitate the connection between the gravity bag and sterivex, an additional adaptor may be required, depending on the gravity bag brand. Create an adaptor by cutting the PVC tubing into 4" pieces and then adding the hose barb adaptor to one end. These connectors can be sterilized in advance and stored in whirl-paks. They can also be reused, as long as they are sterilized between each sample. We recommend bringing sufficient connectors to avoid a sampling backlog.
 
 Connector Sterilization:
 1. Prepare a 10% bleach solution in one of the buckets (2 L). Then, grab another sterile bucket and fill it with RO water (2 L).
@@ -232,7 +234,7 @@ Connector Sterilization:
 7. Once sterilized, with sterilized gloves, pack the connectors into whirl-paks. You can fit multiple connectors into a whirl-pak for short-term storage.
 
 **Filtering Space Preparation:**
-* Locate a secure area out of direct sunlight to set up IV bags. Use carabiners to hang.
+* Locate a secure area out of direct sunlight to set up gravity bags. Use carabiners to hang.
 * A water collection receptacle is required, whether this is a bucket, bin, or sink.
 * Optional but encouraged: store items that can easily tip/fall in rough seas in an anchored container, such as a tupperware or crate, to prevent falling and contamination.
 * Aliquot molecular grade EtOH into a 50mL Falcon tube - pipette from this when filling sterivex cartridges to avoid contaminating the stock EtOH bottle. 
@@ -289,7 +291,7 @@ Turbid samples may only filter ~500 mL. Note the estimated volume filtered. If <
 ### Sample Preservation
 
 1. Once filtering is done, put on a new pair of sterile gloves and remove the sterivex. Place it in the wrapper it originated from for temporary safe-keeping.
-2. Use a new, sterile 5 mL syringe to push all water out of the sterivex, inserting the syringe on the inlet end of the cartridge.
+2. Use a new, sterile 5 mL syringe filled with air to push all water out of the sterivex, inserting the syringe on the inlet end of the cartridge.
 3. Then, add a new cap to the outlet end of the sterivex cartridge.
 4. Using a 1000 μL pipette, gently push the tip into the sterivex inlet to make a seal (important!) and slowly add 1000 μL of 100% molecular grade EtOH into the sterivex filter. Repeat step with a new tip, so the total volume in the sterivex is 2000 μL.
 5. Cap the sterivex inlet with a sterivex/syringe cap. Once sealed, shake the sterivex to ensure all sides of the filter material have been saturated with EtOH.
@@ -314,10 +316,9 @@ A field blank consisting of sterile RO water in a pre-filled and sealed (before 
 
 **Solution:** If a sterivex clogs prior to filtering 1 L (water no longer passes through), then denote the volume filtered and, when available, continue filtering through a new sterivex. Repeat until 1 L is filtered. Mark each additional sterivex, record additional sample names and notes, and denote volumes filtered for each in the field notebook.
 
-**Issue 2:** Filtering is taking too long
+**Issue 2:** Filtering is moving too slowly.
 
-Stop filtering after 120 minutes (2 hours), even if less than 1 L has been filtered
-Turbid samples may only filter ~500 mL. Note the estimated volume filtered. If <200 mL of water is filtered, consider using a second sterivex to filter more water.
+Closing and reopening the locking mechanism has been found to increase the flow rate when filtration has slowed. In addition, positive pressure to the bag can be applied to get the water flowing faster. If filtering exceeds 120 minutes (2 hours), stop filtering after 120 minutes (2 hours), even if less than 1 L has been filtered. Turbid samples may only filter ~500 mL. Note the estimated volume filtered. If <200 mL of water is filtered, consider using a second sterivex to filter more water.
 
 **Issue 3:** Broken filter inlet or outlet
 
