@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME_eDNA_Collection_Protocol_GravityBag_BeBOP
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17807045.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.17807045.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17807045.svg)](https://doi.org/10.5281/zenodo.17807045.svg)
 
 See [NOAA-PMEL-OME_eDNA_Collection_Protocol_GravityBag_BeBOP](https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag.md)
 
